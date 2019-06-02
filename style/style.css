@@ -40,12 +40,12 @@ hr {
     margin-top: 5vh;
 }
 
-.news a, .music a, .events a, .band a, .contact a {
+.news a, .music a, .band a, .contact a {
     color: #DC143C;
     font: Lato, sans-serif;
 }
 
-.news a:hover , .music a:hover , .events a:hover , .band a:hover , .contact a:hover {
+.news a:hover , .music a:hover , .band a:hover , .contact a:hover {
     text-decoration: none;
     color: #DC143C;
     background-color: #DCDCDC;
@@ -511,6 +511,68 @@ footer {
     margin-bottom: 10px;
     margin-top: 10px;
     text-align: center;
+}
+
+
+.events h4 {
+    font: Lato;
+    font-size: 20px;
+    color: #666666;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.timeline-item {
+    padding: 4em 2em 0em 2em;
+    position: relative;
+    color: #DC143C;
+    border-left: 1px solid;
+}
+
+.timeline-item p {
+    padding: 0;
+    margin: 0;
+    color: #666666;
+}
+
+.timeline-item:before {
+    content: attr(data-dates);
+    position: absolute;
+    left: 2.5em;
+    top: 3em;
+    display: block;
+    font-family: Lato, sans-serif;
+    font-weight: 500;
+    font-size: 0.8em;
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-item:after {
+    width: 12px;
+    height: 12px;
+    display: block;
+    top: 2.4em;
+    position: absolute;
+    left: -6px;
+    border-radius: 12px;
+    content: '';
+    background: #DCDCDC;
+}
+
+
+.column img {
+  margin-top: 8px;
+  width: auto;
+  height:100px;
+}
+
+.jumbotron {
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    background-color: #DCDCDC;
+    border-radius: .3rem;
 }
 
 
