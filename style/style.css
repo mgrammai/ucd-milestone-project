@@ -40,6 +40,24 @@ hr {
     margin-top: 5vh;
 }
 
+a {
+    color: #DC143C;
+    font: Lato, sans-serif;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #DC143C;
+    background-color: #DCDCDC;
+    opacity: 0.6;
+    transition: 0.5s;
+    border-radius: 10px;
+    font: Lato, sans-serif;
+
+}
+
+
+
 /*--------------------------------------------Header*/
 
 header {
@@ -116,6 +134,8 @@ a:hover {
     padding-left: 20px;
 }
 
+
+
 /*--------------------------------------------Footer*/
 
 footer {
@@ -159,6 +179,8 @@ footer {
     margin: 0;
     padding: 0;
 }
+
+
 
 
 /*--------------------------------------------Carousel*/
@@ -225,6 +247,8 @@ footer {
     border-radius: 50px;
 }
 
+
+
 /*--------------------------------------------News*/
 
 .title-news {
@@ -240,6 +264,10 @@ footer {
     margin-bottom: 10px;
     margin-left: -15px;
     margin-right: -15px;
+    background-attachment: fixed;
+    background-position:top;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .overlay {
@@ -290,26 +318,189 @@ footer {
     text-align: center;
 }
 
-a {
-    color: #DC143C;
-    font: Lato, sans-serif;
-}
 
-a:hover {
-    text-decoration: none;
-    color: #DC143C;
-    background-color: #DCDCDC;
-    opacity: 0.6;
-    transition: 0.5s;
-    border-radius: 10px;
-    font: Lato, sans-serif;
-
-}
 
 /*--------------------------------------------The Band*/
 
+.title-band {
+    height: 40vh;
+    width: auto;
+    background-color: #FAFAFA;
+    font: Lato, sans-serif;
+    font-size: 30px;
+    color: #FFFFFF;
+    font-weight: 900;
+    background-image: url("../files/images/headers/header-band.jpg");
+    padding-top: 15vh;
+    margin-bottom: 10px;
+    margin-left: -15px;
+    margin-right: -15px;
+    background-attachment: fixed;
+    background-position:top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.band-articles {
+    padding: 0% 5% 0 5%;
+}
+
+
+.band {
+    padding-bottom: 5%;
+}
+
+.band h2 {
+    font: Lato;
+    font-size: 30px;
+    color: #DC143C;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.band-description {
+    text-align: center;
+    font: Lato, sans-serif;
+    font-style: italic;
+    font-size: 100%;
+    background-color: #DCDCDC;
+    border-radius: 50px;
+    padding: 10px;
+    max-width: 1300px;
+    margin: auto;
+    margin-bottom: 10px;
+
+}
+
+
 /*--------------------------------------------Our music*/
+
+.title-music {
+    height: 40vh;
+    width: auto;
+    background-color: #FAFAFA;
+    font: Lato, sans-serif;
+    font-size: 30px;
+    color: #FFFFFF;
+    font-weight: 900;
+    background-image: url("../files/images/headers/header-music.jpg");
+    padding-top: 15vh;
+    margin-bottom: 10px;
+    margin-left: -15px;
+    margin-right: -15px;
+    background-attachment: fixed;
+    background-position:top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.music-articles {
+    padding: 0% 5% 0 5%;
+}
+
+
+.music {
+    padding-bottom: 5%;
+}
+
+.music h2 {
+    font: Lato;
+    font-size: 30px;
+    color: #DC143C;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align: center;
+}
+
 
 /*--------------------------------------------Events*/
 
+.title-events {
+    height: 40vh;
+    width: auto;
+    background-color: #FAFAFA;
+    font: Lato, sans-serif;
+    font-size: 30px;
+    color: #FFFFFF;
+    font-weight: 900;
+    background-image: url("../files/images/headers/header-events.jpg");
+    padding-top: 15vh;
+    margin-bottom: 10px;
+    margin-left: -15px;
+    margin-right: -15px;
+    background-attachment: fixed;
+    background-position:top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.events-articles {
+    padding: 0% 5% 0 5%;
+}
+
+
+.events {
+    padding-bottom: 5%;
+}
+
+.events h2 {
+    font: Lato;
+    font-size: 30px;
+    color: #DC143C;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+
 /*--------------------------------------------Contact*/
+
+.title-contact {
+    height: 40vh;
+    width: auto;
+    background-color: #FAFAFA;
+    font: Lato, sans-serif;
+    font-size: 30px;
+    color: #FFFFFF;
+    font-weight: 900;
+    background-image: url("../files/images/headers/header-contact.jpg");
+    padding-top: 15vh;
+    margin-bottom: 10px;
+    margin-left: -15px;
+    margin-right: -15px;
+     background-attachment: fixed;
+    background-position:top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.contact-articles {
+    padding: 0% 5% 0 5%;
+}
+
+
+.contact {
+    padding-bottom: 5%;
+}
+
+.contact h2 {
+    font: Lato;
+    font-size: 30px;
+    color: #DC143C;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align: center;
+}
