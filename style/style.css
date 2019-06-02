@@ -40,12 +40,12 @@ hr {
     margin-top: 5vh;
 }
 
-a {
+.news a, .music a, .events a, .band a, .contact a {
     color: #DC143C;
     font: Lato, sans-serif;
 }
 
-a:hover {
+.news a:hover , .music a:hover , .events a:hover , .band a:hover , .contact a:hover {
     text-decoration: none;
     color: #DC143C;
     background-color: #DCDCDC;
@@ -419,7 +419,58 @@ footer {
     text-align: center;
 }
 
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
 
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+}
+
+.tab button:hover {
+  background-color: #ddd;
+}
+
+.tab button.active {
+  background-color: #ccc;
+}
+
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+.img-music{
+    width: 200px;
+    height: auto;
+    border-radius: 20px;
+    padding:10px;
+    
+}
+
+
+.music h3 {
+    font: Lato;
+    font-size: 20px;
+    color: #666666;
+    font-weight: 600;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding-left: 20px;
+    text-align: left;
+    text-transform: uppercase;
+    background-color: #FFFFFF;
+}
 /*--------------------------------------------Events*/
 
 .title-events {

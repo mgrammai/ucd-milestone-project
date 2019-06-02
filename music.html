@@ -52,51 +52,164 @@
             <div class="title-music">
                 <div class="overlay uppercase">Our Music</div>
             </div>
+            <div class="row">
+                <div class="col-sm-4" align="center">
+                    <h2>Our last Video</h2>
+                    <iframe width="300px" height="300px" src="https://www.youtube.com/embed/xvqeSJlgaNk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
 
+                <div class="col-sm-8">
+                    <h2>Our albums</h2>
+
+                    <div class="tab">
+                        <button class="tablinks" onclick="openCity(event, 'Disc1')" id="defaultOpen">Justus (1996)</button>
+                        <button class="tablinks" onclick="openCity(event, 'Disc2')">Good times! (2016)</button>
+                        <button class="tablinks" onclick="openCity(event, 'Disc3')">Christmas Party (2018)</button>
+                    </div>
+
+                    <!-- Tab content -->
+                    <div id="Disc1" class="tabcontent">
+                        <h3>Justus</h3>
+                        <div class="row">
+                            <div class="col-4 d-none d-lg-block"><img src="files/images/music/album.jpg" class="img-music" alt="Justus"></div>
+                            <div class="col">
+                        <ol>
+                            <li>"Circle Sky"</li>
+                            <audio controls class="d-none d-lg-block">
+  <source src="files/audio/ImABeliever.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+                            <li>"Never Enough" </li>
+                            <li>"Oh, What a Night" </li>
+                            <li>"You and I" </li>
+                            <li>"Unlucky Stars" </li>
+                            <li>"Admiral Mike" </li>
+                            <li>"Dyin' of a Broken Heart" </li>
+                            <li>"Regional Girl" </li>
+                            <li>"Run Away from Life"</li>
+                            <li>"I Believe You" </li>
+                            <li>"It's My Life" </li>
+                            <li>"It's Not Too Late" </li>
+                        </ol>
+                        </div>
+                        </div>
+                    </div>
+
+                    <div id="Disc2" class="tabcontent">
+                        <h3>Good times!</h3>
+                        <div class="row">
+                            <div class="col-4 d-none d-lg-block"><img src="files/images/music/album2.jpg" class="img-music" alt="Justus"></div>
+                            <div class="col">
+                        <ol>
+                            <li>"Good Times"</li>
+                            <audio controls class="d-none d-lg-block">
+  <source src="files/audio/SteppingStone.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+                            <li>"You Bring the Summer"</li>
+                            <li>"She Makes Me Laugh"</li>
+                            <li>"Our Own World"</li>
+                            <li>"Gotta Give It Time"</li>
+                            <li>"Me & Magdalena"</li>
+                            <li>"Whatever's Right"</li>
+                        </ol>
+                        </div>
+                        </div>
+                    </div>
+
+                    <div id="Disc3" class="tabcontent">
+                        <h3>Christmas Party</h3>
+                        <div class="row">
+                            <div class="col-4 d-none d-lg-block"><img src="files/images/music/album3.jpg" class="img-music" alt="Justus"></div>
+                            <div class="col">
+                        <ol>
+                            <li>"Unwrap You at Christmas"</li>
+                            <audio controls class="d-none d-lg-block">
+  <source src="files/audio/DaydreamBeliever.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+                            <li>"What Would Santa Do" </li>
+                            <li>"Mele Kalikimaka"</li>
+                            <li>"House of Broken Gingerbread"</li>
+                            <li>"The Christmas Song"</li>
+                            <li>"Christmas Party" </li>
+                            <li>"Jesus Christ" </li>
+                            <li>"I Wish It Could Be Christmas Every Day"</li>
+                            <li>"Silver Bells"</li>
+
+                        </ol>
+                        </div>
+                        </div>
+                        
+                    </div>
                 </div>
             </div>
+        </div>
+        </div>
+
+        <script type="text/javascript">
+            document.getElementById("defaultOpen").click();
+
+            function openCity(evt, cityName) {
+
+                var i, tabcontent, tablinks;
+
+                tabcontent = document.getElementsByClassName("tabcontent");
+                for (i = 0; i < tabcontent.length; i++) {
+                    tabcontent[i].style.display = "none";
+                }
+
+                tablinks = document.getElementsByClassName("tablinks");
+                for (i = 0; i < tablinks.length; i++) {
+                    tablinks[i].className = tablinks[i].className.replace(" active", "");
+                }
+
+                document.getElementById(cityName).style.display = "block";
+                evt.currentTarget.className += " active";
+            }
+        </script>
     </section>
 
-<footer class="page-footer text-right">
-            <div class="footer-infos">
-                <ul class="list-inline social-links">
-                    <li class="list-inline-item">
-                        <a target="_blank" href="www.facebook.com">
+    <footer class="page-footer text-right">
+        <div class="footer-infos">
+            <ul class="list-inline social-links">
+                <li class="list-inline-item">
+                    <a target="_blank" href="www.facebook.com">
                             <i class="fa fa-facebook-square" aria-hidden="true"></i>
                             <span class="sr-only">Facebook</span>
                         </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a target="_blank" href="www.twitter.com">
+                </li>
+                <li class="list-inline-item">
+                    <a target="_blank" href="www.twitter.com">
                             <i class="fa fa-twitter" aria-hidden="true"></i>
                             <span class="sr-only">Twitter</span>
                         </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a target="_blank" href="www.spotify.com">
+                </li>
+                <li class="list-inline-item">
+                    <a target="_blank" href="www.spotify.com">
                             <i class="fa fa-spotify" aria-hidden="true"></i>
                             <span class="sr-only">LinkedIn</span>
                         </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a target="_blank" href="www.instagram.com">
+                </li>
+                <li class="list-inline-item">
+                    <a target="_blank" href="www.instagram.com">
                             <i class="fa fa-instagram" aria-hidden="true"></i>
                             <span class="sr-only">Instagram</span>
                         </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a target="_blank" href="#">
+                </li>
+                <li class="list-inline-item">
+                    <a target="_blank" href="youtube.com">
                             <i class="fa fa-youtube" aria-hidden="true"></i>
                             <span class="sr-only">YouTube</span>
                         </a>
-                    </li>
-                      <li class="list-inline-item">
-                        <a href="contact.html">
+                </li>
+                <li class="list-inline-item">
+                    <a href="contact.html">
                             <i class="fa fa-envelope" aria-hidden="true"></i>
                             <span class="sr-only">Contact Us</span>
                         </a>
-                    </li>
-                </ul>
+                </li>
+            </ul>
         </div>
     </footer>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
