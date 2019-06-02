@@ -14,9 +14,9 @@
 
 <body>
 
-    <header>
+    <header class="sticky-top">
 
-        <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light text-center">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light text-center">
 
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -24,6 +24,9 @@
             <a class="navbar-brand" href="index.html"><img src="files/images/logo.png" class="logo d-none d-lg-block" alt="The Monkees Logo"></a>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
+                    <li class="nav-item d-block d-lg-none">
+                        <a class="nav-link" href="index.html">Home </a>
+                    </li>
                     <li class="nav-item">
                         <a class="nav-link" href="news.html">News </a>
                     </li>
@@ -45,49 +48,98 @@
     </header>
 
     <section class="news">
+        <div class="section-news container-fluid">
+            <div class="title-news">
+                <div class="overlay uppercase">Latest News</div>
+            </div>
 
+            <div class="row news-articles">
+                <div class="col-sm">
+                    <div class="row actu1">
+                        <div class="col-sm"><img src="files/images/news/news1.png" class="img-thumbnail d-none d-lg-block" alt="New video"></div>
+                        <div class="col-sm">
+                            <h2>Our new video is out!</h2>
+                            We have worked really hard in the past few weeks to film our new music video. We are proud to exclusively show it to you here on our website.
+                            <a href="music.html">
+                            See it here
+                        </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="row actu2">
+                        <div class="col-sm"><img src="files/images/news/news2.png" class="img-thumbnail d-none d-lg-block" alt="New video">
+                            </div>
+                                <div class="col-sm">
+                                    <h2>The website is live</h2>
+                                    You can finally surf on our new improved website. We hope you'll find all the information you were looking for about the band. New features will come soon!
+                                </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row news-articles">
+                    <div class="col-sm">
+                        <div class="row actu1">
+                            <div class="col-sm"><img src="files/images/news/news3.jpg" class="img-thumbnail d-none d-lg-block" alt="New video">
+                                </div>
+                                    <div class="col-sm">
+                                        <h2>The greatest hits</h2>
+                                        We released a new album of our greatest hit. We hope you'll enjoy it. It's out in every shop! </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm">
+                            <div class="row">
+                                <div class="col-sm"></div>
+                                <div class="col-sm">
+                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
     </section>
-    
-<footer class="page-footer text-right">
-            <div class="footer-infos">
-                <ul class="list-inline social-links">
-                    <li class="list-inline-item">
-                        <a target="_blank" href="www.facebook.com">
+
+    <footer class="page-footer text-right">
+        <div class="footer-infos">
+            <ul class="list-inline social-links">
+                <li class="list-inline-item">
+                    <a target="_blank" href="www.facebook.com">
                             <i class="fa fa-facebook-square" aria-hidden="true"></i>
                             <span class="sr-only">Facebook</span>
                         </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a target="_blank" href="www.twitter.com">
+                </li>
+                <li class="list-inline-item">
+                    <a target="_blank" href="www.twitter.com">
                             <i class="fa fa-twitter" aria-hidden="true"></i>
                             <span class="sr-only">Twitter</span>
                         </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a target="_blank" href="www.spotify.com">
+                </li>
+                <li class="list-inline-item">
+                    <a target="_blank" href="www.spotify.com">
                             <i class="fa fa-spotify" aria-hidden="true"></i>
                             <span class="sr-only">LinkedIn</span>
                         </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a target="_blank" href="www.instagram.com">
+                </li>
+                <li class="list-inline-item">
+                    <a target="_blank" href="www.instagram.com">
                             <i class="fa fa-instagram" aria-hidden="true"></i>
                             <span class="sr-only">Instagram</span>
                         </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a target="_blank" href="#">
+                </li>
+                <li class="list-inline-item">
+                    <a target="_blank" href="#">
                             <i class="fa fa-youtube" aria-hidden="true"></i>
                             <span class="sr-only">YouTube</span>
                         </a>
-                    </li>
-                      <li class="list-inline-item">
-                        <a href="contact.html">
+                </li>
+                <li class="list-inline-item">
+                    <a href="contact.html">
                             <i class="fa fa-envelope" aria-hidden="true"></i>
                             <span class="sr-only">Contact Us</span>
                         </a>
-                    </li>
-                </ul>
+                </li>
+            </ul>
         </div>
     </footer>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
