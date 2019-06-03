@@ -47,6 +47,7 @@ Carousel with 3 items:
 * Navigation pages
 
 ![Pages Wireframe](/files/read-me-images/wireframe-pages.jpg)
+![Pages Wireframe](/files/read-me-images/wireframe-pages2.jpg)
 
 ### Surface
 
