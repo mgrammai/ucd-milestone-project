@@ -242,16 +242,6 @@ footer {
     font-family: Lato, sans-serif;
 }
 
-@media(min-width: 992px) {
-    .carousel-caption {
-    width: 50%;
-    max-height: 400px;
-    margin: auto;
-    background: rgba(128, 128, 128, 0.5);
-    border-radius: 50px;
-    bottom: 50%;
-}
-}
 
 .carousel-caption {
     width: 50%;
@@ -261,8 +251,6 @@ footer {
     border-radius: 50px;
     bottom: 10%;
 }
-
-
 
 
 /*--------------------------------------------News*/
@@ -657,6 +645,6 @@ footer {
 }
 
 .photo-contact {
-    width: 100%;
+    width:100%;
     height: auto;
 }
