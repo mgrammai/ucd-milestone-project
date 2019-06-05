@@ -140,6 +140,10 @@ I also thought about a link on the whole picture but then it would have been con
     2. The form was tested, some areas are mandatory - used Bootstrap for the overall form
     3. Added a date input for enquiries about an event - choose this aspect instead of a Google Calendar for the overall look 
 
+--------
+
+[CSS Validator](https://en.wikipedia.org/wiki/The_Monkees) 
+[HTML Validator](https://www.youtube.com/watch?v=xvqeSJlgaNk)
 
 ## Deployment
 
@@ -147,8 +151,6 @@ The "blank" running code of Could9 was used most of the time. It was quite a cha
 Then I committed on Git every time a new page was build and with an almost "finished" status.
 
 Also due to the upcoming migration with AWS it was chosen to finish the website on Cloud9 and to deploy it from there to avoid any transfer issue.
-
-
 
 
 ## Credits
@@ -162,5 +164,4 @@ Also due to the upcoming migration with AWS it was chosen to finish the website 
 - The photos used in this site were obtained from Code Institute, Pixabay and Google Images for some band pictures.
 - The video was used from Youtube "The Monkees" page
 
-### Acknowledgements
 
