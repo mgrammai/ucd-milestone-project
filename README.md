@@ -142,8 +142,9 @@ I also thought about a link on the whole picture but then it would have been con
 
 --------
 
-[CSS Validator](https://en.wikipedia.org/wiki/The_Monkees) 
-[HTML Validator](https://www.youtube.com/watch?v=xvqeSJlgaNk)
+[CSS Validator](https://validator.w3.org) 
+[HTML Validator](https://validator.w3.org)
+Note: Some warnings showed up for the Youtube Iframe - decided to ignore them for now as it is the embedded video code from Youtube.
 
 ## Deployment
 
