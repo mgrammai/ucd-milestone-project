@@ -5,7 +5,7 @@
 
 body,
 html {
-    font-family: "Lato", sans-serif;
+    font-family: 'Lato', sans-serif;
     margin: 0;
     padding: 0;
     background-color: #FAFAFA;
@@ -44,7 +44,7 @@ hr {
 .music a,
 .band a {
     color: #DC143C;
-    font: Lato, sans-serif;
+    font-family: 'Lato', sans-serif;
 }
 
 .news a:hover,
@@ -56,7 +56,7 @@ hr {
     opacity: 0.6;
     transition: 0.5s;
     border-radius: 10px;
-    font: "Lato", sans-serif;
+    font-family: 'Lato', sans-serif;
 
 }
 
@@ -235,7 +235,7 @@ footer {
     text-shadow: 1px 1px #FFFFFF;
     text-transform: uppercase;
     padding: 10px;
-    font-family: "Lato", sans-serif;
+    font-family: 'Lato', sans-serif;
     letter-spacing: 2px;
     font-weight: 900;
     font-size: 4vh;
@@ -244,7 +244,7 @@ footer {
 .carousel-caption p {
     color: #FFFFFF;
     padding: 10px;
-    font-family: Lato, sans-serif;
+    font-family: 'Lato', sans-serif;
     font-size: 3vh;
 }
 
@@ -275,7 +275,7 @@ footer {
     height: 40vh;
     width: auto;
     background-color: #FAFAFA;
-    font: Lato, sans-serif;
+    font-family: 'Lato', sans-serif;
     font-size: 30px;
     color: #FFFFFF;
     font-weight: 900;
@@ -294,7 +294,7 @@ footer {
     bottom: 0;
     background: rgba(0, 0, 0, 0.5);
     color: #f1f1f1;
-    font: "Lato", sans-serif;
+    font-family: 'Lato', sans-serif;
     width: 100%;
     font-size: 30px;
     padding: 20px;
@@ -310,7 +310,7 @@ footer {
     margin: 5px;
     padding: 10px;
     background-color: #f2f2f2;
-    font: Lato, sans-serif;
+    font-family: 'Lato', sans-serif;
     text-align: justify;
 
 }
@@ -319,7 +319,7 @@ footer {
     margin: 5px;
     padding: 10px;
     background-color: #DCDCDC;
-    font: "Lato", sans-serif;
+    font-family: 'Lato', sans-serif;
     text-align: justify;
 }
 
@@ -328,7 +328,7 @@ footer {
 }
 
 .news h2 {
-    font: "Lato", sans-serif;
+    font-family: 'Lato', sans-serif;
     font-size: 30px;
     color: #DC143C;
     font-weight: 600;
@@ -346,7 +346,7 @@ footer {
     height: 40vh;
     width: auto;
     background-color: #FAFAFA;
-    font: "Lato", sans-serif;
+    font-family: 'Lato', sans-serif;
     font-size: 30px;
     color: #FFFFFF;
     font-weight: 900;
@@ -372,7 +372,7 @@ footer {
 }
 
 .band h2 {
-    font: "Lato", sans-serif;
+    font-family: 'Lato', sans-serif;
     font-size: 30px;
     color: #DC143C;
     font-weight: 600;
@@ -384,7 +384,7 @@ footer {
 
 .band-description {
     text-align: center;
-    font: "Lato", sans-serif;
+    font-family: 'Lato', sans-serif;
     font-style: italic;
     font-size: 100%;
     background-color: #DCDCDC;
@@ -403,7 +403,7 @@ footer {
     height: 40vh;
     width: auto;
     background-color: #FAFAFA;
-    font: "Lato", sans-serif;
+    font-family: 'Lato', sans-serif;
     font-size: 30px;
     color: #FFFFFF;
     font-weight: 900;
@@ -429,7 +429,7 @@ footer {
 }
 
 .music h2 {
-    font: "Lato", sans-serif;
+    font-family: 'Lato', sans-serif;
     font-size: 30px;
     color: #DC143C;
     font-weight: 600;
@@ -481,7 +481,7 @@ footer {
 
 
 .music h3 {
-    font: "Lato", sans-serif;
+    font-family: 'Lato', sans-serif;
     font-size: 20px;
     color: #666666;
     font-weight: 600;
@@ -499,7 +499,7 @@ footer {
     height: 40vh;
     width: auto;
     background-color: #FAFAFA;
-    font: "Lato", sans-serif;
+    font-family: 'Lato', sans-serif;
     font-size: 30px;
     color: #FFFFFF;
     font-weight: 900;
@@ -525,7 +525,7 @@ footer {
 }
 
 .events h2 {
-    font: "Lato", sans-serif;
+    font-family: 'Lato', sans-serif;
     font-size: 30px;
     color: #DC143C;
     font-weight: 600;
@@ -537,7 +537,7 @@ footer {
 
 
 .events h4 {
-    font: "Lato", sans-serif;
+    font-family: 'Lato', sans-serif;
     font-size: 20px;
     color: #666666;
     font-weight: 600;
@@ -567,7 +567,7 @@ footer {
     left: 2.5em;
     top: 3em;
     display: block;
-    font-family: Lato, sans-serif;
+    font-family: 'Lato', sans-serif;
     font-weight: 500;
     font-size: 0.8em;
     padding: 0;
@@ -599,7 +599,7 @@ footer {
     margin-top: 2rem;
     background-color: #DCDCDC;
     border-radius: .3rem;
-    font-family: "Lato", sans-serif;
+    font-family: 'Lato', sans-serif;
     font-size: 15px;
 }
 
@@ -610,7 +610,7 @@ footer {
     height: 40vh;
     width: auto;
     background-color: #FAFAFA;
-    font: "Lato", sans-serif;
+    font-family: 'Lato', sans-serif;
     font-size: 30px;
     color: #FFFFFF;
     font-weight: 900;
@@ -636,7 +636,7 @@ footer {
 }
 
 .contact h2 {
-    font: "Lato", sans-serif;
+    font-family: 'Lato', sans-serif;
     font-size: 20px;
     color: #DC143C;
     font-weight: 600;
@@ -651,7 +651,7 @@ footer {
     padding: 5px;
     background-color: rgb(220, 220, 220, 0.5);
     border-bottom: 1px solid rgba(102, 102, 102, 0.5);
-    font: "Lato", sans-serif;
+    font-family: 'Lato', sans-serif;
     border-radius: 10px;
 }
 
