@@ -3,7 +3,7 @@
 The Monkees is a 1960’s rock band and have around 50 years experience of performing live at numerous events around the world. They want to have online presence for their fans and to advertise their music toward potential public for gigs and events.
  
  
- Project Link: ![https://mgrammai.github.io/ucd-milestone-project/](https://mgrammai.github.io/ucd-milestone-project/)
+ Project Link: [https://mgrammai.github.io/ucd-milestone-project/](https://mgrammai.github.io/ucd-milestone-project/)
  
  
 ## UX
