@@ -156,6 +156,8 @@ Then I committed on Git every time a new page was build and with an almost "fini
 
 Also due to the upcoming migration with AWS it was chosen to finish the website on Cloud9 and to deploy it from there to avoid any transfer issue.
 
+Deployment was made on GitHub as well as the creation of a direct link in the "option" section of the website. Once deployed, multiple new tests were made some amendments to the code and further deployments as well.
+
 
 ## Credits
 
