@@ -544,6 +544,10 @@ footer {
     text-transform: uppercase;
 }
 
+.timeline-items {
+    padding-left: 10px;
+}
+
 .timeline-item {
     padding: 4em 2em 0em 2em;
     position: relative;
