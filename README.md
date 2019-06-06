@@ -2,6 +2,10 @@
 
 The Monkees is a 1960’s rock band and have around 50 years experience of performing live at numerous events around the world. They want to have online presence for their fans and to advertise their music toward potential public for gigs and events.
  
+ 
+ Project Link: ![https://mgrammai.github.io/ucd-milestone-project/](https://mgrammai.github.io/ucd-milestone-project/)
+ 
+ 
 ## UX
  
 ### Strategy
@@ -142,9 +146,8 @@ I also thought about a link on the whole picture but then it would have been con
 
 --------
 
-[CSS Validator](https://validator.w3.org) 
-[HTML Validator](https://validator.w3.org)
-Note: Some warnings showed up for the Youtube Iframe - decided to ignore them for now as it is the embedded video code from Youtube.
+[CSS Validator](https://en.wikipedia.org/wiki/The_Monkees) 
+[HTML Validator](https://www.youtube.com/watch?v=xvqeSJlgaNk)
 
 ## Deployment
 
